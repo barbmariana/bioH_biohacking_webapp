@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, redirect } from "react-router-dom";
 import Login from "./pages/Login";
 
 const RoutesComponent = () => {
@@ -7,7 +7,6 @@ const RoutesComponent = () => {
                 <Routes>
                         <Route path="/" element={<Login/>} />
                 </Routes>
-
                 </BrowserRouter>
         )
 }
